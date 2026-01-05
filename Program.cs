@@ -4,8 +4,6 @@ using WebApplication1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Регистрация сервисов.
-// Документация по OpenAPI/Swagger: https://aka.ms/aspnet/openapi
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
