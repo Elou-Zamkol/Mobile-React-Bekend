@@ -1,0 +1,14 @@
+**/.git
+**/.idea
+**/.vs
+**/.vscode
+
+**/bin
+**/obj
+
+**/*.user
+**/*.suo
+**/*.cache
+
+Dockerfile
+README.md
